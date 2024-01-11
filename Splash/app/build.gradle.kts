@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.spalsh"
-    compileSdk = 33
+    namespace = "com.example.splash"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.spalsh"
+        applicationId = "com.example.splash"
         minSdk = 28
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

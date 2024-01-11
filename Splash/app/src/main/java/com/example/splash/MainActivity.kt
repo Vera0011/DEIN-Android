@@ -1,4 +1,4 @@
-package com.example.spalsh
+package com.example.splash
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

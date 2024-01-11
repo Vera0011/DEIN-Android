@@ -1,4 +1,4 @@
-package com.example.spalsh
+package com.example.splash
 
 import org.junit.Test
 
