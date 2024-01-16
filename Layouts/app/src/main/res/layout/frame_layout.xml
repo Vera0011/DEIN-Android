@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/boton_inferior"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="bottom|center_horizontal"
+            android:text="Botón inferior"
+            android:textAlignment="textStart"
+            android:textSize="30dp"
+            android:backgroundTint="#FF5733"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/boton_superior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:gravity="center_horizontal|top"
+            android:text="Botón Superior"
+            android:backgroundTint="#60E0ED"/>
+
+        <Button
+            android:id="@+id/boton_centro_derecha"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center|right"
+            android:gravity="center|right"
+            android:text="Botón Centro Derecha" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
