@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.buttons_vera"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.buttons_vera"
