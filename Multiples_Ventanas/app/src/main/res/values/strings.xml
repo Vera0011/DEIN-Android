@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Multiples_Ventanas</string>
+    <string name="nombre">Escribe tu nombre</string>
+    <string name="aceptar">Botón aceptar</string>
+    <string name="alumno">App creada por David</string>
+    <string name="modulo">DEIN</string>
+</resources>
