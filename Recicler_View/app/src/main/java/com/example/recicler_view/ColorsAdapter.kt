@@ -9,7 +9,11 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class ColorsAdapter(private val colors: List<Color>) : RecyclerView.Adapter<ColorsAdapter.ViewHolder>(){
+class ColorsAdapter( private val colors: List<Color>, private val colorClickListener : ColorClickListener) : RecyclerView.Adapter<ColorsAdapter.ViewHolder>(){
+    interface ColorClickListener{
+        fun onColorClick (color: Color)
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val row: View = LayoutInflater.from(parent.context).inflate(R.layout.row, parent, false)
         return ViewHolder(row)
@@ -20,6 +24,7 @@ class ColorsAdapter(private val colors: List<Color>) : RecyclerView.Adapter<Colo
         val color = colors[position]
         color.photo = "https://loremflickr.com/320/240?random=$position"
         holder.bindRow(color)
+        holder.itemView.setOnClickListener {colorClickListener .onColorClick(color) }
     }
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

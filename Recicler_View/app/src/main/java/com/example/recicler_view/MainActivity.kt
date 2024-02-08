@@ -2,6 +2,7 @@ package com.example.recicler_view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 
@@ -13,7 +14,15 @@ class MainActivity : AppCompatActivity() {
         val recycler: RecyclerView =
             findViewById(R.id. recycler)
         recycler.adapter = ColorsAdapter(
-            buildColors()
+            buildColors(),
+            object : ColorsAdapter.ColorClickListener {
+                override fun onColorClick(color: Color) {
+                    Toast.makeText(
+                        this@MainActivity, color.hex,
+                        Toast.LENGTH_LONG
+                    ).show()
+                }
+            }
         )
     }
 
