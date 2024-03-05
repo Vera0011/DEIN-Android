@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ExamenUT3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#285FE7</item>
+        <item name="android:colorSecondary">#5F83DB</item>
+    </style>
+
+    <style name="Theme.ExamenUT3" parent="Base.Theme.ExamenUT3" />
+</resources>

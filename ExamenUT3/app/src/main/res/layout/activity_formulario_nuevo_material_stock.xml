@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_registrar"
+    android:orientation="vertical"
+    tools:context=".FormularioNuevoMaterialStock">
+
+    <EditText
+        android:id="@+id/code_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/ingresar_codigo"
+        android:inputType="text"
+        android:paddingStart="5dp" />
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/ingresar_nombre"
+        android:inputType="text"
+        android:paddingStart="5dp" />
+
+    <EditText
+        android:id="@+id/stock_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/ingresar_stock"
+        android:inputType="numberSigned"
+        android:paddingStart="5dp" />
+
+    <EditText
+        android:id="@+id/price_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/ingresar_precio"
+        android:inputType="numberDecimal"
+        android:paddingStart="5dp" />
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/ingresar_descripcion"
+        android:inputType="text"
+        android:paddingStart="5dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/confirm_add"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="@string/registrar" />
+
+    <Button
+        android:id="@+id/goto_menu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/regresar_al_men" />
+</LinearLayout>

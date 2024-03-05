@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo_menu_app">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="Gestión Ezkaba.com"
+        android:textAlignment="gravity"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/goto_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:width="@dimen/main_buttons_width"
+        android:text="@string/registrar_nuevo_material" />
+
+    <Button
+        android:id="@+id/goto_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:width="@dimen/main_buttons_width"
+        android:text="@string/lista_del_stock" />
+
+    <Button
+        android:id="@+id/goto_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:width="@dimen/main_buttons_width"
+        android:text="@string/carro_de_compras"
+        app:icon="@drawable/ic_launcher_foreground"
+        app:iconGravity="textStart"
+        app:iconSize="30dp" />
+</LinearLayout>

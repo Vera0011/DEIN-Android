@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Examen UT3 Adrian Vera</string>
+    <string name="cesta_actual">CESTA ACTUAL</string>
+    <string name="producto">Producto</string>
+    <string name="unidades">Unidades</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="realizar_pedido">Realizar Pedido</string>
+    <string name="coste_envio">Coste envío</string>
+    <string name="euros_envio">10 €</string>
+    <string name="cupon">Cupón</string>
+    <string name="euros_cupon">-5€</string>
+    <string name="total">Total</string>
+    <string name="registrar_nuevo_material">Registrar nuevo material</string>
+    <string name="lista_del_stock">Lista del stock y Compra de material</string>
+    <string name="carro_de_compras">Carro de Compras</string>
+    <string name="lista_de_articulos">LISTA DE ARTÍCULOS</string>
+    <string name="ir_a_la_cesta">Ir a la cesta</string>
+    <string name="ingresar_codigo">  Ingresar Código</string>
+    <string name="ingresar_nombre">  Ingresar Nombre</string>
+    <string name="ingresar_stock">  Ingresar stock</string>
+    <string name="ingresar_precio">  Ingresar precio</string>
+    <string name="ingresar_descripcion">  Ingresar descripción</string>
+    <string name="registrar">Registrar</string>
+    <string name="regresar_al_men">Regresar al Menú</string>
+    <string name="menu_eliminar_producto">Eliminar producto de la cesta</string>
+    <string name="menu_vaciar_cesta_completa">Vaciar cesta completa</string>
+    <string name="eliminar_1ud_del_producto">Eliminar 1ud del producto</string>
+    <string name="a_adir_1ud_del_producto">Añadir 1ud del producto</string>
+</resources>
